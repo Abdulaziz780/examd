@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+.nav {
+    color: #222;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.Ansormed {
+    width: 140px;
+    height: 36px;
+}
+
+.start {
+    display: flex;
+    margin: 50px 350px;
+    justify-content: space-between;
+    align-items: center;
+    width: 1400px;
+}
+
+.header-button {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid #DE2E54;
+    background: #FFF;
+}
+
+.p-button {
+    color: #DE2E54;
+    font-family: "Open Sans Condensed";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.first-section {
+    background-image: url('./assets/img/image\ 4\ \(1\).png');
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    flex-shrink: 0;
+    display: flex;
+}
+
+.text-div {
+    width: 700px;
+    height: 282.4px;
+}
+
+.text-h1 {
+    color: #FFF;
+    font-family: "Open Sans Condensed";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+
+    padding: 137.8px 0 0 170px;
+}
+
+.text-p {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 15.31px 0 0 170px;
+}
+
+.button-1 {
+    display: inline-flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(222, 46, 84, 0.80);
+    color: white;
+    border: solid rgba(255, 255, 255, 0);
+    margin: 34.45px 0 0 170px;
+}
+
+.hero {
+    width: 650px;
+    height: 700px;
+    margin: 100px 0 0 500px;
+}
+
+.third-p {
+    color: #000;
+    font-family: "Open Sans Condensed";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin: 69px 900px;
+}
+
+.card-p {
+    color: #222;
+    font-family: "Open Sans Condensed";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.card-p1 {
+    color: #444;
+    width: 700px;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.card {
+    display: flex;
+    margin: 127.63px 500px;
+}
+
+.p {
+    margin: 50px 64px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+
+.img {
+    width: 300px;
+    height: 300px;
+}
+
+.third-section {
+    width: 100%;
+    height: 969px;
+    background-color: #0EB4C1;
+    position: relative;
+    display: flex;
+}
+
+.final-div {
+    position: absolute;
+    bottom: 600px;
+    left: 300px;
+}
+
+.bot1 {
+    width: 530px;
+    height: 485.185px;
+}
+
+.bot2 {
+    width: 530px;
+    height: 485.185px;
+}
+
+.bot3 {
+    width: 530px;
+    height: 485.185px;
+}
+
+.map {
+    padding: 384px 0 0 163px;
+}
+
+form {
+    width: 713px;
+    height: 431px;
+    background-color: white;
+    margin: 450px 0 163px 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 13.97px;
+    padding: 10px;
+}
+
+input {
+    width: 680px;
+    height: 61px;
+    display: flex;
+}
+
+.button-login {
+    width: 680px;
+    height: 61px;
+    border-radius: 5px;
+    background: #38CC8B;
+    box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.09) inset;
+    border: 0px solid rgba(255, 255, 255, 0);
+}
+
+.jonatish {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 1px;
+}
+
+form>input::placeholder {
+    color: #3D3B48;
+    font-family: Poppins;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.25px;
+    padding: 10px;
+}
+
+body {
+    position: relative;
+}
+
+footer {
+    background-color: #222;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 3390px;
+}
+
+.nav1 {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.nav:hover {
+    color: #DE2E54;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.nav1:hover {
+    color: #DE2E54;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
